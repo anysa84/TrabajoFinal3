@@ -149,7 +149,7 @@ button {
   display: flex;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid hsl(0, 33%, 92%);
+  border: 1px solid hsl(0, 32%, 92%);
   border-radius: 5px;
   background-color: rgb(215, 56, 236);
   margin-left: 50%;
@@ -242,9 +242,10 @@ button {
   row-gap: 50px;
   color: rgb(14, 1, 1);
   height: 40px;
-
+  width: 500px;
   margin-left: 20px;
   cursor: pointer;
+  align-self: center;
 
 }
 
@@ -254,11 +255,13 @@ button {
    display: flex;
    flex-shrink: 50px;
    margin-bottom: 15px;
-   justify-items: center;
+   justify-items: center; 
    row-gap: 50px;
    color: rgb(14, 1, 1);
    height: 40px;
-
+   width: 500px;
+   align-self: center;
+   flex: auto;
    margin-left: 20px;
    cursor: pointer;
 
@@ -266,9 +269,10 @@ button {
 #addSongButton {
  color: #fafafa;
  font-family: "Bungee Inline", sans-serif;
-  
-  
+    
     }
+
+
 
  ul {
    color: aqua;
