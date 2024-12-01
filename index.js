@@ -34,7 +34,7 @@ const usuarioSchema = new mongoose.Schema({
   contraseña: String
 });
 
-const Cancion = mongoose.model('Cancion', cancionSchema);
+const Cancion = mongoose.model('cancions', cancionSchema);
 const Usuario = mongoose.model('Usuario', usuarioSchema);
 
 /**Manejo Canciones */
