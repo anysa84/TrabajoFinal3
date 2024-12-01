@@ -1,7 +1,7 @@
 const formLogin = document.getElementById('formLogin');
 const errorMessage = document.getElementById('errorMessage');
 
-const baseURL = window.location.hostname === 'localhost' ? 'http://localhost:5000' : 'https://tu-dominio-en-render.com';
+const baseURL = window.location.hostname === 'localhost' ? 'http://localhost:5000' : 'https://proyectofinal2-f11b.onrender.com';
 //const baseURL = 'http://localhost:3000';
 
 formLogin.addEventListener('submit', async (e) => {
