@@ -1,8 +1,8 @@
 const formUsuario = document.getElementById('formUsuario');
 const errorMessage = document.getElementById('errorMessage');
 
-const baseURL = window.location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://cnblue-prueba.onrender.com';
-//const baseURL = 'http://localhost:3000';
+//const baseURL = window.location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://cnblue-prueba.onrender.com';
+const baseURL = 'http://localhost:3000';
 
 formUsuario.addEventListener('submit', async (e) => {
   e.preventDefault();
