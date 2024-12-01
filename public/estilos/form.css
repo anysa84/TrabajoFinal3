@@ -1,0 +1,452 @@
+.protest-guerrilla-regular {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bungee-hairline-regular {
+  font-family: "Bungee Hairline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sofadi-one-regular {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.bungee-inline-regular {
+  font-family: "Bungee Inline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+  
+form {
+    font: "Bungee Inline", sans-serif;
+    display: flex;
+    color: rgb(238, 237, 237);
+    align-items: center; 
+    justify-content: center; 
+    flex: content;
+
+    flex-direction: column;
+
+    
+}
+
+/*thead {
+  display: flex;
+ margin: 5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ec0707;
+  border-radius: 5px;
+  align-items: center; 
+  justify-content: center; 
+
+
+}
+*/
+
+
+body{
+    display: flex;
+    color: #f0f5f5;
+    margin: 0;
+    background-color: #b525e0;
+    font-family: "bungee" , sans-serif;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column ;
+}
+
+
+
+textarea[name]:name {
+   color: #2c2222;
+}
+
+.Titulo{
+  font: "Bungee Inline", sans-serif;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  animation: bounce 2s infinite alternate;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+
+     }
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  color:black;
+  
+}
+
+input[type="number"]{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color:black;
+}
+
+
+input[type="url" ]{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color:black
+}
+
+
+input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color:black
+}
+
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color:black
+}
+
+input[type="submit"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  color:black
+  
+  
+}
+
+p{  
+font-size: 20px;
+display:flex;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+
+}
+
+a{
+  color: white;
+  text-underline-offset: none;
+  display:flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  justify-content: center;
+  flex: auto;
+  align-items:center;
+}
+
+a .href{
+  color:deeppink
+}
+
+
+
+
+.VOLVER{
+  display: flex; 
+
+  flex: auto;
+  border: 1px solid hsl(0, 33%, 92%);
+  border-radius: 5px;
+  background-color: rgb(215, 56, 236);
+  flex:content ;
+  justify-items: center;
+  width: 100px;
+  height: 500px;
+  justify-content: center;
+  margin-left: 46%;
+  margin-right: 50%;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-bottom: 20px ;
+  margin-top: 10px;
+}    
+.LOVE {
+
+  margin: 10px;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.CANT {
+  color: hsl(0, 0%, 100%);
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.RING {
+  color: hsl(0, 0%, 100%);
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Foto {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+img {
+
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+input [type="email"] { 
+   color: rgb(235, 14, 14); 
+   }
+
+
+
+
+
+.table-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(15, 3, 3);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(223, 53, 53, 0.1);
+}
+
+
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+  background-color: #d81ee979;
+  color: rgb(236, 213, 232);
+  font-size: medium;
+  font-style: normal;
+
+
+}
+
+tr:hover {
+  background-color: #e9060681;
+  color: rgb(1, 1, 12);
+}
+
+
+nav {
+  width: 100%;
+  background-color: #06011849;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: rgb(241, 241, 243);
+  font-size: large;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+
+
+/*L para las tarjetas y el formulario*/
+/* styles.css */
+  
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: rgb(215, 56, 236);
+  color: rgb(238, 238, 238);
+  border: 1px solid hsla(0, 15%, 92%, 0);
+  border-radius: 5px;
+  cursor: pointer;
+    font: "Bungee", sans-serif;
+ 
+  
+}
+
+ button:hover {
+  background-color: #8dbaf5;
+  padding: 10px;
+  
+} 
+
+#tarjetasCanciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tarjeta {
+  border: 1px solid #ddd;
+  background-color: #f1d6ec44;
+  border-radius: 5px;
+  padding: 10px;
+  width: calc(33% - 20px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center; /* Centrar el texto */
+}
+
+.tarjeta img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+.tarjeta a {
+  color: #0505ec;
+  text-decoration: none;
+}
+
+/* .tarjeta a:hover {
+  text-decoration: underline;
+}*/
+
+.tarjeta .acciones {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.tarjeta h2 {
+  background-color: #0976eb38; /* Fondo verde */
+  color: #070707; /* Texto verde oscuro */
+  padding: 10px;
+  margin: -10px -10px 10px -10px; /* Para que ocupe el ancho completo de la tarjeta */
+}
+
+@media (max-width: 768px) {
+  .tarjeta {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .tarjeta {
+    width: 100%;
+  }
+}
+
+/* 
+ albums
+
+.corazon1{
+  border-bottom: 50%;
+  background-color: rgba(235, 58, 58, 0);
+  position: relative;
+  bottom: 100px;
+  left: 25px;
+  width: 250px; /* Ajusta el tamaño 
+  height: 150px;    
+ 
+}
+
+.contenedor{
+  display: flex ;
+  justify-content: center;
+  margin: 10px;
+  margin-inline: 10px;
+  }  
+ 
+
+
+  
+.corazon {
+  display: flex;
+
+  background: none;
+  border: none;
+  color: #ecb3b3;
+  font-size: 34px;
+  cursor: pointer;
+  position: relative;
+  top: -330px;
+  left: 290px;
+  border-bottom: #100613;
+
+
+}
+
+.corazon.liked {
+  color: red;
+}
+ */
+
+/*Barra de Navegacion*/

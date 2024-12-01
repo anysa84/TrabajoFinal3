@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Barra de navegación */
+  #Navegacion nav {
+    background-color: #000;
+    padding: 10px 0;
+    text-align: center; /* Centramos la navegación */
+  }
+  
+  #Navegacion ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  #Navegacion ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  #Navegacion ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+  }
+  
+  #Navegacion ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* Título */
+  #Formulario h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 60px; /* Espacio superior para evitar superposición con la barra de navegación */
+    margin-bottom: 20px; /* Espacio inferior */
+  }
+  
+  /* Formulario */
+  #Formulario form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  #Formulario input[type="email"],
+  #Formulario input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #Formulario button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #Formulario button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  #Formulario #errorMessage {
+    color: red;
+    text-align: center;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 600px) {
+    #Navegacion ul li {
+      display: block;
+      margin: 5px 0;
+    }
+  
+    #Formulario form {
+      padding: 10px;
+    }
+  
+    #Formulario input[type="email"],
+    #Formulario input[type="password"] {
+      padding: 8px;
+      margin: 8px 0;
+    }
+  
+    #Formulario button[type="submit"] {
+      padding: 8px;
+    }
+  }
+  

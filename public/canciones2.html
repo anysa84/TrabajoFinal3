@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&display=swap" rel="stylesheet">
+
+ 
+  <title>CRUD Canciones</title>
+  
+  <link rel="stylesheet" href="./estilos/form.css">
+</head>
+<body>
+    <nav>
+      <ul>
+    
+        <li><a href="./index.html">Principal</a></li>
+        <li><a href="./canciones2.html">Albums</a></li>
+        <li><a href="./login2.html">Iniciar Sesion</a></li>
+        <li><a href="./Registro2.html">Registrarse</a></li>
+        <li><a href="./Eventos.html">Eventos</a></li>
+    
+      </ul>
+    
+    </nav>
+    
+    <div class="Titulo"> ALBUMS </Div>
+    
+    <div class="contenedor">
+      <p class="LOVE"> FIRST STELE </p>
+      <button class="Rojo"><a href="./ListaLove.html"> <IMG src="./imagenes/portada_Love.avif"> </a></button>
+      <!-- <button class="corazon">&#9829;</button> -->
+    </div>
+    
+    <div class="contenedor">
+      <p class="CANT"> CANT 't_STOP </p>
+      <button class="azul"><a href="./ListaCant.html"> <IMG src="./imagenes/portada_CantStop.jpg"> </a></button>
+      <!-- <button class="corazon">&#9829;</button> -->
+    </div>
+    
+    
+    <div class="contenedor">
+      <p class="RING">ROBOT </p>
+      <button class="Amarillo"><a href="./ListaRing.html"> <IMG src="./imagenes/portada_Ring.jpg"> </a></button>
+      <!-- <button class="corazon">&#9829;</button> -->
+    </div>
+
+
+
+
+  <h1> AGREGAR ALBUMS</h1>
+  <form id="formCancion">
+    <input type="text" id="titulo" placeholder="Título" required>
+    <input type="text" id="album" placeholder="Álbum" required>
+    <input type="number" id="año" placeholder="Año" required>
+    <input type="url" id="urlPortada" placeholder="URL de la Portada" required>
+    <input type="url" id="urlYoutube" placeholder="URL de YouTube" required>
+    <button type="submit">Añadir Canción</button>
+  </form>
+  <div id="tarjetasCanciones"></div>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script defer src="./javaScript/cancionero.js"></script>
+</body>
+</html>

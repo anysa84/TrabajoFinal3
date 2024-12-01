@@ -1,0 +1,409 @@
+.protest-guerrilla-regular {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sofadi-one-regular {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bungee-inline-regular {
+  font-family: "Bungee Inline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.bungee-inline-regular {
+  font-family: "Bungee Inline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Titulo {
+  font-family: "Bungee Inline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: blue;
+  font-size: 80px;
+  animation: bounce 2s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #b525e0;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(236, 236, 236);
+  justify-content: center;
+  row-gap: 20px;
+  position: relative;
+ 
+  
+
+
+
+}
+
+
+img {
+  width: 20px;
+  height: 300px;
+  margin-inline-end: auto;
+  margin-left: 50%;
+  width: 50px;
+  border-radius: 5%;
+
+
+
+
+}
+
+h2 {
+  display: flex;
+  font-family: "Bungee Inline", sans-serif;
+  font-style: normal;
+  color: rgb(2, 2, 204);
+  font-size: 80px;
+  animation: bounce 2s infinite alternate;
+  display: flex;
+
+/*  font-style: normal;
+  flex-direction: column;
+  justify-content: center;*/
+}
+
+a {
+  color: hsl(220, 23%, 97%);
+  font-family: "Bungee", sans-serif;
+
+}
+
+.Album {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(236, 236, 236);
+  animation: bounce 2s infinite alternate;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: top;
+  flex-wrap: wrap;
+  border-bottom: rgb(240, 230, 230);
+  row-gap: 60 px;
+
+
+}
+
+/*   titulo lista dentro de div*/
+
+.Lista {
+  font-family: "bungee inline";
+  font-weight: 200;
+  font-style: normal;
+  color: #ebe4e4;
+  font-size: 30px;
+  animation: bounce 2s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  row-gap: 20px;
+}
+
+button {
+
+  padding: 10px;
+  font-size: 16px;
+  justify-content: center;
+
+
+}
+
+
+.song-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+
+.song-list>li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+
+.addSongButton {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid hsl(0, 33%, 92%);
+  border-radius: 5px;
+  background-color: rgb(215, 56, 236);
+  margin-left: 50%;
+  max-width: fit-content;
+
+
+
+}
+
+.Enviar {
+  padding: 10px;
+  font-size: 16px;
+  justify-content: center;
+  bottom: -50px;
+
+
+
+}
+
+
+
+
+.song-list {
+  font-family: "Bungee-Regular.";
+  color: rgb(236, 236, 236);
+  animation: bounce 2s infinite alternate;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: rgb(240, 230, 230);
+
+ 
+
+
+
+}
+
+
+
+
+.VOLVER {
+  display: flex; 
+  flex: auto;
+  border: 1px solid hsl(0, 33%, 92%);
+  border-radius: 5px;
+  background-color: rgb(215, 56, 236);
+  flex:content ;
+  justify-items: center;
+  width: 100px;
+  height: 500px;
+  justify-content: center;
+  margin-left: 46%;
+  margin-right: 50%;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-bottom: 20px ;
+  margin-top: 10px;
+ 
+
+
+}
+
+
+.Agregar_tema{
+  display: flex;
+  padding: 1px;
+  border-radius: 5px;
+  color: rgb(233, 227, 227);
+  justify-content: center;
+  border: 15px ;
+  border-radius: 5px;
+ 
+  font-size: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+
+}
+
+#songInput { 
+   padding: 10px; 
+   font-size: 16px;
+   display: flex;
+   flex-shrink: 50px;
+   margin-bottom: 15px;
+   justify-items: center;
+   row-gap: 50px;
+   color: rgb(0, 0, 0);
+   height: 40px;
+
+   margin-left: 20px;
+   cursor: pointer;
+
+   }
+
+
+
+.comprarTicket {
+  font-family: "bungee inline";
+  font-weight: 00;
+  font-style: normal;
+  color: hsl(0, 99%, 49%);
+  font-size: 30px;
+  animation: bounce 2s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+
+
+.entrada {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid hsl(0, 33%, 92%);
+  border-radius: 5px;
+  background-color: hsl(0, 94%, 43%)
+}
+
+.btnTour3 {
+  font-family: "bungee inline";
+  font-weight: 200;
+  font-style: normal;
+  color: #faf2f2;
+  font-size: 30px;
+  animation: bounce 2s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+
+/* .EVENTOS {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(236, 236, 236);
+  animation: bounce 2s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  flex-wrap: wrap;
+  border-bottom: rgb(240, 230, 230); 
+
+}
+*/
+
+
+
+
+  /* 
+
+.VOLVER{
+  display:flex; 
+  border: 1px solid hsl(0, 33%, 92%);
+  border-radius: 5px;
+  background-color: rgb(215, 56, 236);
+margin-left: 50%;
+  width: 80px;
+  height: 40px;
+  justify-content: center;
+  flex: auto;
+  align-items:center; 
+}    
+*/
+
+ul {
+  color: black;
+  justify-content: b;
+
+}
+
+
+
+
+div[ class="Agregar_tema"] {
+  color: #000000;
+
+}
+
+
+/* Estilos de la lista */ 
+#musicList { 
+
+   padding: 0;
+    margin: 20px 0;
+   } 
+   #musicList li 
+   { padding: 15px; 
+    margin: 10px 0; 
+
+    border: 1px solid hsl(0, 23%, 97%); border-radius: 4px; 
+    text-align: left;
+ 
+    } 
+
+nav {
+  width: 100%;
+  background-color: #000000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+    
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+nav {
+  width: 100%;
+  background-color: #00000050;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}

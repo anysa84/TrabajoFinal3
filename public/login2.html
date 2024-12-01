@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de Sesión</title>
+  <!-- <link rel="stylesheet" href="./styles/login2.css"> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./estilos/form.css">
+ 
+</head>
+<body>
+<div id="Navegacion">
+    <nav> 
+        <ul> 
+            <li><a href="./index.html">Principal</a></li>  
+            <li><a href="./canciones2.html">Albums</a></li> 
+              <li><a href="./login2.html">Iniciar Sesion</a></li> 
+              <li><a href="./Registro2.html">Registrarse</a></li>
+              <li><a href="./Eventos.html">Eventos</a></li> 
+        </ul>
+    </div>
+<div id="Formulario">
+  <h1>Inicio de Sesión</h1>
+  <form id="formLogin">
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="contraseña" placeholder="Contraseña" required>
+    <button type="submit">Iniciar Sesión</button>
+    <p id="errorMessage" style="color: red;"></p>
+  </form>
+</div>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script defer src="./javaScript/verificarSesion2.js"></script>
+
+
+</body>
+</html>
