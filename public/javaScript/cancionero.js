@@ -4,8 +4,8 @@ const tarjetasCanciones = document.getElementById('tarjetasCanciones');
 let editandoID = null;
 
 // Definir la URL base según el entorno
-//const baseURL = window.location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://cnblue-prueba.onrender.com';
-const baseURL = 'http://localhost:3000';
+const baseURL = window.location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://cnblue-prueba.onrender.com';
+//const baseURL = 'http://localhost:3000';
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
