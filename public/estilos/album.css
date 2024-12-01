@@ -47,6 +47,7 @@ body {
   justify-content: center;
   row-gap: 20px;
   position: relative;
+  font-family: "Bungee Inline", sans-serif;;
  
   
 
@@ -83,7 +84,7 @@ h2 {
 }
 
 a {
-  color: hsl(220, 23%, 97%);
+  color: hsl(220, 20%, 97%);
   font-family: "Bungee", sans-serif;
 
 }
@@ -132,7 +133,7 @@ button {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-
+ 
 
 }
 
@@ -141,7 +142,7 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-
+  font-family:"Sofadi One", system-ui;
 }
 
 .addSongButton {
@@ -218,7 +219,7 @@ button {
   display: flex;
   padding: 1px;
   border-radius: 5px;
-  color: rgb(233, 227, 227);
+  color: rgb(247, 247, 247);
   justify-content: center;
   border: 15px ;
   border-radius: 5px;
@@ -231,6 +232,22 @@ button {
 
 }
 
+#nameInput {  
+  padding: 10px; 
+  font-size: 16px;
+  display: flex;
+  flex-shrink: 50px;
+  margin-bottom: 15px;
+  justify-items: center;
+  row-gap: 50px;
+  color: rgb(14, 1, 1);
+  height: 40px;
+
+  margin-left: 20px;
+  cursor: pointer;
+
+}
+
 #songInput { 
    padding: 10px; 
    font-size: 16px;
@@ -239,14 +256,26 @@ button {
    margin-bottom: 15px;
    justify-items: center;
    row-gap: 50px;
-   color: rgb(0, 0, 0);
+   color: rgb(14, 1, 1);
    height: 40px;
 
    margin-left: 20px;
    cursor: pointer;
 
    }
+#addSongButton {
+ color: #fafafa;
+ font-family: "Bungee Inline", sans-serif;
+  
+  
+    }
 
+ ul {
+   color: aqua;
+   list-style-type: none;
+   padding: 10;
+
+ }   
 
 
 .comprarTicket {
